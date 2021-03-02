@@ -11,7 +11,7 @@ The scope of this project is to send the temperature of the VMware ESXi host
 
 The project is made of 3 files files:
 <br> - temp.sh This is used to get the temperature using a the python script
-<br>   pimon_util.py and send it to syslog or/and to a custom file. 
+<br>&nbsp&nbsp pimon_util.py and send it to syslog or/and to a custom file. 
 <br> - temp.xml This is used to create 2 firewall services to allow syslog messages
 <br>   to be sent outbound. 
 <br> - firewallsyslog.sh This is used to configure where the syslog messages will be sent
